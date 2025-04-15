@@ -37,6 +37,7 @@ public class BallController : MonoBehaviour
     void ResetBall() {
         transform.localPosition = new Vector2(0, 0);
         rigid.velocity = new Vector2(0, 0);
+        force = 200;
     }
 
     void TampilkanScore() {
@@ -46,7 +47,7 @@ public class BallController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D coll) {
-        if(coll.gameObject.name == "goalKanan") {
+        if(coll.gameObject.name == "goalKiri") {
             scoreP1 += 1;
             TampilkanScore();
             if(scoreP1 == 5) {
@@ -60,7 +61,7 @@ public class BallController : MonoBehaviour
             Vector2 arah = new Vector2(2, 0).normalized;
             rigid.AddForce(arah * force);
         }
-        if(coll.gameObject.name == "goalKiri") {
+        if(coll.gameObject.name == "goalKanan") {
             scoreP2 += 1;
             TampilkanScore();
             if(scoreP2 == 5) {
@@ -78,8 +79,14 @@ public class BallController : MonoBehaviour
             float sudut = (transform.position.y - coll.transform.position.y) * 5f;
 
             Vector2 arah = new Vector2(rigid.velocity.x, sudut).normalized;
-            rigid.velocity = new Vector2(0, 0);
+            rigid.velocity = Vector2.zero;
+
+            // Tambah kecepatan setiap kena paddle
+            force += 20; // kamu bisa sesuaikan nilai percepatannya
+            force = Mathf.Min(force, 700); // batasi maksimal force
+
             rigid.AddForce(arah * force * 2);
         }
+
     }
 }

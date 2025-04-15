@@ -27,9 +27,12 @@ public class HalamanHockeyManager : MonoBehaviour
     }
 
     public void MulaiPermainan() {
-        SceneManager.LoadScene("HockeyGamePlay");
+        SceneManager.LoadScene("Game2");
     }
     public void KembaliKeMenu(){
-        SceneManager.LoadScene("MenuHockey");
+        SceneManager.LoadScene("MenuGame2");
+    }
+    public void UlangiGame(){
+        SceneManager.LoadScene("Game2");
     }
 }
