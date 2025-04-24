@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterScene: 
-  escapeScene: Exit
+  escapeScene: MenuUtama
   isEscapeForQuit: 0
 --- !u!82 &40066838
 AudioSource:

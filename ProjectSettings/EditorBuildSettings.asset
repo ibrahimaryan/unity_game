@@ -6,18 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuUtama.unity
+    guid: 5bdd7ddb494078440a5fbda833226377
+  - enabled: 1
     path: Assets/Scenes/MenuGame1.unity
     guid: 090e1dfa72f0eeb4ab7109638a4e9d26
   - enabled: 1
     path: Assets/Scenes/Game1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-<<<<<<< HEAD
     path: Assets/Scenes/Game1_tebak.unity
     guid: 7a5efdb2e9ef65b41b9fe52a0e97f403
-=======
-    path: Assets/Scenes/ExitGame1.unity
-    guid: ef0a417ea384a854c91ad2a52d8e972d
   - enabled: 1
     path: Assets/Scenes/MenuGame2.unity
     guid: 6f18a34688cb0af41943d38fccc35bfc
@@ -27,8 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pengenalan.unity
     guid: 8c225195685500c428c2fcf68b91ebbe
-  - enabled: 1
-    path: Assets/Scenes/MenuUtama.unity
-    guid: 5bdd7ddb494078440a5fbda833226377
->>>>>>> 328ae95dfcdff60f467e67d50c0203e5c07767bc
   m_configObjects: {}

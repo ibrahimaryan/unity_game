@@ -67,7 +67,7 @@ public class BallController : MonoBehaviour
             if(scoreP2 == 5) {
                 panelSelesai.SetActive(true);
                 txtPemenang = GameObject.Find("Pemenang").GetComponent<Text>();
-                txtPemenang.text = "Player Merah Biru!!!";
+                txtPemenang.text = "Player Merah Menang!!!";
                 Destroy(gameObject);
                 return;
             }
