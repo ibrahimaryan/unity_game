@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Drop
+  - paddle_biru
+  - goalKiri
   layers:
   - Default
   - TransparentFX

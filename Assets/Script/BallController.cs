@@ -48,9 +48,9 @@ public class BallController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D coll) {
         if(coll.gameObject.name == "goalKiri") {
-            scoreP1 += 1;
+            scoreP2 += 1;
             TampilkanScore();
-            if(scoreP1 == 5) {
+            if(scoreP2 == 5) {
                 panelSelesai.SetActive(true);
                 txtPemenang = GameObject.Find("Pemenang").GetComponent<Text>();
                 txtPemenang.text = "Player Merah Menang!!!";
@@ -62,12 +62,12 @@ public class BallController : MonoBehaviour
             rigid.AddForce(arah * force);
         }
         if(coll.gameObject.name == "goalKanan") {
-            scoreP2 += 1;
+            scoreP1 += 1;
             TampilkanScore();
-            if(scoreP2 == 5) {
+            if(scoreP1 == 5) {
                 panelSelesai.SetActive(true);
                 txtPemenang = GameObject.Find("Pemenang").GetComponent<Text>();
-                txtPemenang.text = "Player Merah Menang!!!";
+                txtPemenang.text = "Player Biru Menang!!!";
                 Destroy(gameObject);
                 return;
             }
