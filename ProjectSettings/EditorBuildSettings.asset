@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game2.unity
     guid: 5a589c65d464fe5459dffe5d03251fa2
+  - enabled: 1
+    path: Assets/Scenes/Pengenalan.unity
+    guid: 8c225195685500c428c2fcf68b91ebbe
+  - enabled: 1
+    path: Assets/Scenes/MenuUtama.unity
+    guid: 5bdd7ddb494078440a5fbda833226377
   m_configObjects: {}
