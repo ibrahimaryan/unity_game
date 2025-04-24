@@ -12,12 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/ExitGame1.unity
-    guid: ef0a417ea384a854c91ad2a52d8e972d
-  - enabled: 1
-    path: Assets/Scenes/MenuGame2.unity
-    guid: 6f18a34688cb0af41943d38fccc35bfc
-  - enabled: 1
-    path: Assets/Scenes/Game2.unity
-    guid: 5a589c65d464fe5459dffe5d03251fa2
+    path: Assets/Scenes/Game1_tebak.unity
+    guid: 7a5efdb2e9ef65b41b9fe52a0e97f403
   m_configObjects: {}

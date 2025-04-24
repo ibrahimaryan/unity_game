@@ -1624,7 +1624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterScene: 
-  escapeScene: Menu
+  escapeScene: MenuGame1
   isEscapeForQuit: 0
 --- !u!1 &559751167
 GameObject:
