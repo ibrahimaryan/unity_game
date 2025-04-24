@@ -1,44 +1,24 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(AudioSource))]
 public class ButtonSound : MonoBehaviour
 {
-    public AudioClip soundClip;
-
+    public AudioClip clickSound;
     private AudioSource audioSource;
-    private Button button;
 
     void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
-        button = GetComponent<Button>();
-
-        if (button != null)
-        {
-            // Kalau ini UI Button, daftarkan ke onClick
-            button.onClick.AddListener(PlaySound);
-        }
+        // Buat AudioSource dinamis jika belum ada
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
     }
 
-    public void PlaySound()
+    public void OnClick()
     {
-        if (soundClip != null)
+        if (clickSound != null)
         {
-            audioSource.PlayOneShot(soundClip);
-        }
-        else
-        {
-            Debug.LogWarning("AudioClip belum di-assign di " + gameObject.name);
-        }
-    }
-
-    // Untuk non-UI (misalnya: kartu di-click pakai OnMouseDown)
-    private void OnMouseDown()
-    {
-        if (button == null) // Hanya jalan kalau bukan UI Button
-        {
-            PlaySound();
+            audioSource.PlayOneShot(clickSound); // PlayOneShot bisa dipanggil berkali-kali
         }
     }
 }
