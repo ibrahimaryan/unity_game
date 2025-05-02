@@ -17,7 +17,8 @@ public class GerakPindah : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     float move = (speed * Time.deltaTime * -1f) + transform.position.x;
+    transform.position = new Vector3(move, transform.position.y);
     }
     private Vector3 screenPoint;
     private Vector3 offset;
