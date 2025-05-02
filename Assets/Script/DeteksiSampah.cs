@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class DeteksiSampah : MonoBehaviour
 {
-     public string nameTag;
+    public static int score;
+    public string nameTag;
     public AudioClip audioBenar;
     public AudioClip audioSalah;
     private AudioSource MediaPlayerBenar;
