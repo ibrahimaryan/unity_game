@@ -26,7 +26,12 @@ public class HalamanHockeyManager : MonoBehaviour
         }
     }
 
-    public void MulaiPermainan() {
+    public void MainDenganTeman() {
+        PlayerPrefs.SetInt("AIEnabled", 0);
+        SceneManager.LoadScene("Game2");
+    }
+    public void MainDenganAI() {
+        PlayerPrefs.SetInt("AIEnabled", 1);
         SceneManager.LoadScene("Game2");
     }
     public void KembaliKeMenu(){
