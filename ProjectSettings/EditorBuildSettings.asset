@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuUtama.unity
     guid: 5bdd7ddb494078440a5fbda833226377
   - enabled: 1
+    path: Assets/Scenes/Pengenalan.unity
+    guid: 8c225195685500c428c2fcf68b91ebbe
+  - enabled: 1
+    path: Assets/Scenes/Konfirmasi_exit.unity
+    guid: 76a43d0decd04594eb713f798f06462c
+  - enabled: 1
     path: Assets/Scenes/MenuGame1.unity
     guid: 090e1dfa72f0eeb4ab7109638a4e9d26
   - enabled: 1
@@ -27,18 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Game2.unity
     guid: 5a589c65d464fe5459dffe5d03251fa2
   - enabled: 1
-    path: Assets/Scenes/Pengenalan.unity
-    guid: 8c225195685500c428c2fcf68b91ebbe
+    path: Assets/Scenes/MenuGame3.unity
+    guid: 68434ce95229fdd4691dc1c325524a41
   - enabled: 1
     path: Assets/Scenes/Game3.unity
     guid: fac9fc616cb3dba4588b4d6b10fbcca5
   - enabled: 1
     path: Assets/Scenes/Game3Gameover.unity
     guid: 0149184de57ab55469322de23c8851ca
-  - enabled: 1
-    path: Assets/Scenes/MenuGame3.unity
-    guid: 68434ce95229fdd4691dc1c325524a41
-  - enabled: 1
-    path: Assets/Scenes/Konfirmasi_exit.unity
-    guid: 76a43d0decd04594eb713f798f06462c
   m_configObjects: {}
