@@ -75,7 +75,7 @@ public class BallController : MonoBehaviour
             Vector2 arah = new Vector2(-2, 0).normalized;
             rigid.AddForce(arah * force);
         }
-        if(coll.gameObject.name == "paddle_biru" || coll.gameObject.name == "paddle_merah") {
+        if(coll.gameObject.name == "paddle_biru" || coll.gameObject.name == "paddle_merah" || coll.gameObject.name == "tepiAtas" || coll.gameObject.name == "tepiBawah" || coll.gameObject.name == "tepiKiriAtas" || coll.gameObject.name == "tepiKiriBawah" || coll.gameObject.name == "tepiKananAtas" || coll.gameObject.name == "tepiKananBawah") {
             float sudut = (transform.position.y - coll.transform.position.y) * 5f;
 
             Vector2 arah = new Vector2(rigid.velocity.x, sudut).normalized;

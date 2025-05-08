@@ -61,4 +61,12 @@ public class HalamanManager : MonoBehaviour
     void KembaliKeMenu() {
         SceneManager.LoadScene("MenuUtama"); // ganti dengan nama scene menu utama kamu
     }
+
+    public void Keluar() {
+        Application.Quit();
+    }
+
+    public void KembaliKeMenuAwal() {
+        SceneManager.LoadScene("Home_Awal");
+    }
 }
