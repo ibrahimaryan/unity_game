@@ -33,9 +33,9 @@ public class HalamanManager : MonoBehaviour
         SceneManager.LoadScene("MenuGame2");
     }
 
-    // public void MulaiPermainan3() {
-    //     SceneManager.LoadScene("MenuGame3");
-    // }
+    public void MulaiPermainan3() {
+        SceneManager.LoadScene("MenuGame3");
+    }
 
     public void Credits() {
         SceneManager.LoadScene("Pengenalan");
