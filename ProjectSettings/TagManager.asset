@@ -7,8 +7,10 @@ TagManager:
   - Drop
   - paddle_biru
   - goalKiri
-  - Organik
-  - NonOrganik
+  - Herbivora
+  - Omnivora
+  - Karnivora
+  - Kayu
   layers:
   - Default
   - TransparentFX
