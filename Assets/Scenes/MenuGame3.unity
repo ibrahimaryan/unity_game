@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea2455b9dbed86842bc3d587b0b16e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEscapeToExit: 1
+  isEscapeToExit: 0
 --- !u!114 &1000620713
 MonoBehaviour:
   m_ObjectHideFlags: 0
