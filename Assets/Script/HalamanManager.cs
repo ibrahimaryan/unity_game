@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class HalamanManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public string enterScene;
+    public string escapeScene;
     public bool isEscapeToExit;
 
     void Start()
@@ -16,11 +18,22 @@ public class HalamanManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape)) {
-            if (isEscapeToExit) {
+        if (Input.GetKeyUp(KeyCode.Return))
+        {
+            Debug.Log("Name Scene: " + enterScene);
+            SceneManager.LoadScene(enterScene);
+        }
+        
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (isEscapeToExit)
+            {
                 Application.Quit();
-            } else {
-                KembaliKeMenu();
+            }
+            else
+            {
+                Debug.Log("Name Scene: " + escapeScene);
+                SceneManager.LoadScene(escapeScene);
             }
         }
     }
@@ -35,6 +48,10 @@ public class HalamanManager : MonoBehaviour
 
     public void MulaiPermainan3() {
         SceneManager.LoadScene("MenuGame3");
+    }
+
+    public void MulaikeMenuUtama() {
+        SceneManager.LoadScene("MenuUtama");
     }
 
     public void Credits() {

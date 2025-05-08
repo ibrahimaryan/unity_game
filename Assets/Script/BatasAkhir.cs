@@ -19,7 +19,7 @@ public class BatasAkhir : MonoBehaviour
                  other.gameObject.CompareTag("Karnivora") ||
                  other.gameObject.CompareTag("Omnivora"))
         {
-            Data.score -= 5;
+            // Data.score -= 5;
             Data.hitpoint -= 1;
             Destroy(other.gameObject);
 
