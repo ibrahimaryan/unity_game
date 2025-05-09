@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e0b5c7039bdd04f8e6fa56c39ff618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  faceSprite: {fileID: 21300000, guid: 6964e72f47de03242998eb260d80a37e, type: 3}
+  faceSprite: {fileID: 21300000, guid: 24ecba7e520e12c41bf1c38b9f68b91d, type: 3}
   backSprite: {fileID: 21300000, guid: 5adb6b165ca99cb44bf0304895d0801a, type: 3}
   flipSound: {fileID: 8300000, guid: 77a6880ab29e49445a05ce3b1a2a59d2, type: 3}
 --- !u!61 &407074097
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e0b5c7039bdd04f8e6fa56c39ff618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  faceSprite: {fileID: 21300000, guid: 60aa13067819f8a4faa1ef5d49beadcb, type: 3}
+  faceSprite: {fileID: 21300000, guid: 0702049ddc17c2c40baee7bb27a57b15, type: 3}
   backSprite: {fileID: 21300000, guid: 5a5062545994c0845883f94914bd2f56, type: 3}
   flipSound: {fileID: 8300000, guid: 77a6880ab29e49445a05ce3b1a2a59d2, type: 3}
 --- !u!61 &926693253
@@ -912,7 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e0b5c7039bdd04f8e6fa56c39ff618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  faceSprite: {fileID: 21300000, guid: c612a809d83e7d8498126e3fbcd1cc22, type: 3}
+  faceSprite: {fileID: 21300000, guid: c7cdc7a01ff160946a37b439379ae6ff, type: 3}
   backSprite: {fileID: 21300000, guid: c8fb4e39866c1634bbea2c2e40d341dc, type: 3}
   flipSound: {fileID: 8300000, guid: 77a6880ab29e49445a05ce3b1a2a59d2, type: 3}
 --- !u!61 &1582280238
@@ -1217,7 +1217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e0b5c7039bdd04f8e6fa56c39ff618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  faceSprite: {fileID: 21300000, guid: c3890d5db8858d145a2073e1c552cce3, type: 3}
+  faceSprite: {fileID: 21300000, guid: f6f60937771afe946a6266c0fa6e65fa, type: 3}
   backSprite: {fileID: 21300000, guid: 3073d36901fc6b94b8640627aeaa9c87, type: 3}
   flipSound: {fileID: 8300000, guid: 77a6880ab29e49445a05ce3b1a2a59d2, type: 3}
 --- !u!212 &2131549324
